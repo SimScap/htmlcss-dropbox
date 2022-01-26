@@ -241,6 +241,8 @@ div.partner-image img{
     font-weight: bolder;
 }
 
+
+
 .card-duration{
     color: grey;
     font-size: 0.8rem;
@@ -289,7 +291,6 @@ div.business-container img{
 
 .clients-container{
     width: 100%;
-    height: 700px;
     border: 2px solid black;
 }
 
@@ -332,3 +333,4 @@ div.business-container img{
     display: inline-block;
     padding: 40px;
 }
+
