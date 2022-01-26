@@ -15,6 +15,13 @@ h1{
     font-size: 3.8rem;
 }
 
+h2{
+    margin-bottom: 20px;
+}
+
+input{
+    margin-bottom: 20px;
+}
 .clearfix{
     content: "";
     display: table;
@@ -95,35 +102,41 @@ header div li{
 
 .container{
     border: 2px solid yellowgreen;
-    width: 60%;
+    width: 70%;
     height: 500px;
     margin: 100px auto;
 }
 
 .dropbox-title-plans{
-    width: 80%;
-    height: 30px;
     border: 2px solid magenta;
 }
 
 .dropbox-check-planes{
-    width:30%;
-    height: 30px;
     border: 2px solid slateblue;
+    padding-top: 10px;
+}
+
+.input-margin{
+    margin-left: 20px;
 }
 
 .dropbox-planes{
-    width: 20%;
+    width: 30%;
     height: calc(100% - 60px);
     border: 2px solid orange;
+    text-align: center;
+  
 }
 
+.margin-planes{
+    margin: 0 41px;
+}
 
 
 .dropbox-contact-planes{
     width: 100%;
-    height: 60px;
     border: 2px solid sienna;
+    text-align: center;
 }
 
 .partner-image{
@@ -169,4 +182,15 @@ header div li{
     width: 30%;
     border: 2px solid indianred;
     height: 60px;
+}
+
+.plans-title-spacing{
+    line-height: 35px;
+}
+
+.fa-arrow-down {
+    padding-top: 30px;
+    font-size: 30px;
+
+
 }
