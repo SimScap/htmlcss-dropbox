@@ -6,6 +6,13 @@
     margin: 0;
 }
 
+body{
+    min-width: 1000px;
+}
+
+h1{
+    font-size: 5rem;
+}
 
 .clearfix{
     content: "";
@@ -48,30 +55,40 @@ header{
     border: 2px solid red;
 }
 
+header section ul,li{
+    display: inline;
+}
+
+
+
 .jumbo{
     width: 100%;
-    height: 800px;
+    /* height: 800px; */
     background-color: cadetblue;
 }
 
 .jumbo-title{
     margin: 0 auto;
-    width: 80%;
+    width: 40%;
     border: 2px solid coral;
-    height: 150px;
+    /* height: 150px; */
 }
 
 .jumbo-img{
-    width: 30%;
+    width: 15%;
     border: 2px solid coral;
-    height: calc(100% - 150px);
-    margin-left: 310px;
+    /* height: calc(100% - 150px); */
 }
 
 .jumbo-under-title{
     width: 50%;
     border: 2px solid coral;
-    height: calc(100% - 150px);
+    /* height: calc(100% - 150px); */
+
+}
+
+.jumbo-under-title img{
+    width: 100%
 }
 
 .container{
@@ -99,9 +116,7 @@ header{
     border: 2px solid orange;
 }
 
-.margin-right-planes{
-    margin-left: 372.6px;
-}
+
 
 .dropbox-contact-planes{
     width: 100%;
@@ -113,7 +128,7 @@ header{
     width: 40%;
     height: 100%;
     border: 2px solid firebrick;
-    margin-left: 150px;
+   
 }
 .partner-text{
     width: 40%;
@@ -121,3 +136,35 @@ header{
     border: 2px solid violet;
 }
 
+.business-title{
+    width: 80%;
+    height: 30px;
+    border: 2px solid orange;
+}
+
+.business-img-top{
+    width: calc(100% / 3);
+    border: 2px solid indigo;
+    height: calc(25% - 30px);
+    float: left;
+}
+
+.business-text{
+    width: calc(100% / 3);
+    border: 2px solid rgb(0, 130, 43);
+    height: calc(25% - 30px);
+    float: left;
+}
+
+.business-img{
+    width: calc(100% / 3);
+    border: 2px solid indigo;
+    height: calc(25% - 30px);
+    float: left;
+}
+
+.client-title{
+    width: 30%;
+    border: 2px solid indianred;
+    height: 60px;
+}
