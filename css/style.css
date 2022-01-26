@@ -82,8 +82,10 @@ header{
 
 header div ul,li{
     display: inline;
+
     
-}
+} 
+
 
 header div li{
     font-size: 1rem;
@@ -118,7 +120,7 @@ header div li{
 
 .container{
     border: 2px solid yellowgreen;
-    width: 70%;
+    width: 85%;
     height: 500px;
     margin: 100px auto;
 }
@@ -221,4 +223,14 @@ header div li{
 
 .quarter-hr{
     width: 25%;
+}
+
+.fa-check{
+    display: block;
+    margin-bottom: 5px;
+    color: blue;
+}
+
+.clean-list li{
+    display: block;
 }
