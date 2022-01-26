@@ -10,6 +10,10 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+footer{
+    background-color: black;
+}
+
 
 h1{
     font-size: 3.8rem;
@@ -313,10 +317,18 @@ div.business-container img{
 }
 
 .fa-angle-down{
-   
 }
 
 .bolded-small{
     font-weight: bolder;
     
+}
+
+.white-list{
+    color: white;
+}
+
+.footer-list{
+    display: inline-block;
+    padding: 40px;
 }
