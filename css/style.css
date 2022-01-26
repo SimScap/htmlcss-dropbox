@@ -20,6 +20,7 @@ h2{
 }
 
 h3{
+    margin-bottom: 20px;
 
 }
 
@@ -120,7 +121,7 @@ header div li{
 
 .container{
     border: 2px solid yellowgreen;
-    width: 85%;
+    width: 90%;
     height: 500px;
     margin: 100px auto;
 }
@@ -140,14 +141,13 @@ header div li{
 
 .dropbox-planes{
     width: 30%;
-    /* height: calc(100% - 60px); */
     border: 2px solid orange;
     text-align: center;
   
 }
 
 .margin-planes{
-    margin: 0 41px;
+    margin: 0 5%;
 }
 
 
@@ -223,14 +223,52 @@ header div li{
 
 .quarter-hr{
     width: 25%;
+    margin: 25px 0 25px 0;
 }
 
 .fa-check{
-    display: block;
+    display: inline;
     margin-bottom: 5px;
     color: blue;
 }
 
 .clean-list li{
     display: block;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+}
+
+
+.card-title,.card-price{
+    font-weight: bolder;
+}
+
+.card-duration{
+    color: grey;
+    font-size: 0.8rem;
+}
+
+.centered-buttons{
+    color: white;
+    background-color: blue;
+    width: 100%;
+    height: 2.2rem;
+    margin: 25px 0 25px 0;
+}
+
+.enterprise{
+    text-align: left;
+    padding: 25px;
+
+}
+
+.enterprise-button{
+    position: absolute;
+    right: 10px;
+    top:20px;
+    color: white;
+    background-color: blue;
+    height: 2.2rem;
+    width: 20%;
+
 }
