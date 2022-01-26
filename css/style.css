@@ -25,15 +25,6 @@ h2{
 
 h3{
     margin-bottom: 20px;
-
-}
-
-h4{
-
-}
-
-h5{
-    
 }
 
 h6{
@@ -85,10 +76,18 @@ header{
     border: 2px solid red;
 }
 
+header button,div.jumbo-under-title button{
+    background-color: blue;
+    height: 2.2rem;
+    color: white;
+}
+
+header button{
+    width: 15%;
+}
+
 header div ul,li{
     display: inline;
-
-    
 } 
 
 
@@ -123,6 +122,11 @@ header div li{
     width: 100%;
 }
 
+div.jumbo-under-title button{
+    width: 70%;
+    margin: 20px 0 20px 0;
+}
+
 .container{
     border: 2px solid yellowgreen;
     width: 90%;
@@ -146,7 +150,6 @@ header div li{
     width: 30%;
     border: 2px solid orange;
     text-align: center;
-  
 }
 
 .margin-planes{
@@ -164,7 +167,6 @@ header div li{
     width: 50%;
     height: 100%;
     border: 2px solid firebrick;
-   
 }
 .partner-text{
     padding: 20px;
@@ -175,16 +177,16 @@ header div li{
 }
 
 .partner-button{
-background-color: white;
-color: black;
-width: 40%;
-height: 2.2rem;
-margin-top: 20px;
+    background-color: white;
+    color: black;
+    width: 40%;
+    height: 2.2rem;
+    margin-top: 20px;
 }
 
 div.partner-image img{
-   width: 100%;
-   height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 
