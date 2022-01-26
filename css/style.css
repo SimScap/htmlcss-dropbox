@@ -40,6 +40,10 @@ input{
     clear: both;
 }
 
+.vertical-align{
+    vertical-align: super;
+}
+
 .float-left{
     float: left;
 }
@@ -65,14 +69,16 @@ header{
 
 .logo-nav{
     width: 50%;
-    height: 100%;
     border: 2px solid red;
+}
+
+.logo-nav img{
+    padding: 20px 10px 0 20px;
 }
 
 .start-nav{
     text-align: right;
     width: 50%;
-    height: 100%;
     border: 2px solid red;
 }
 
@@ -84,6 +90,7 @@ header button,div.jumbo-under-title button{
 
 header button{
     width: 15%;
+    margin: 14px 0 0 0;
 }
 
 header div ul,li{
@@ -91,9 +98,10 @@ header div ul,li{
 } 
 
 
+
 header div li{
     font-size: 1rem;
-    margin: 0 20px;
+    padding: 0 20px;
 }
 
 .jumbo{
@@ -115,11 +123,12 @@ header div li{
 .jumbo-under-title{
     width: 30%;
     border: 2px solid coral;
-    padding:50px
+    padding:0 50px
 }
 
 .jumbo-img img{
     width: 100%;
+    
 }
 
 div.jumbo-under-title button{
