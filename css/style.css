@@ -78,7 +78,7 @@ header{
 
 .start-nav{
     text-align: right;
-    width: 50%;
+    width: 40%;
     border: 2px solid red;
 }
 
@@ -100,8 +100,7 @@ header div ul,li{
 
 
 header div li{
-    font-size: 1rem;
-    padding: 0 20px;
+ padding: 10px;
 }
 
 .jumbo{
@@ -241,6 +240,7 @@ div.partner-image img{
     margin-right: 5px;
 }
 
+
 .clean-list li{
     display: block;
     margin-bottom: 20px;
@@ -287,7 +287,6 @@ div.partner-image img{
 .business-container{
     width: 31.4%;
     border: 2px solid orange;
-    float: left;
     margin-bottom: 20px;
 }
 
