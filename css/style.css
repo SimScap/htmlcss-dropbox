@@ -8,8 +8,8 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    max-width: 1300px;
-    min-width: 900px;
+    /* max-width: 1300px;
+    min-width: 900px; */
 }
 
 footer{
@@ -107,29 +107,26 @@ header div li{
 }
 
 .wrapper{
-    border: 2px solid black;
-    margin-top: 60px;
+    top: 60px;
+    
 }
 
 .jumbo{
-    background-color: cadetblue;
+    background-color: lightsteelblue;
 }
 
 .jumbo-title{
     margin: 0 auto;
-    border: 2px solid coral;
-    padding:50px
-
+    padding:50px;
 }
 
 .jumbo-img{
     width: 65%;
-    border: 2px solid coral;
+    
 }
 
 .jumbo-under-title{
     width: 30%;
-    border: 2px solid coral;
     padding:0 50px
 }
 
@@ -347,11 +344,14 @@ div.business-container img{
     color: white;
 }
 
+
 .footer-list{
     display: inline-block;
     padding: 40px;
 }
 
+/* Rimuovere per aggiungere punti salienti
+del piano sulla card professional */
 #margin-bottom60{
     margin-bottom: 60px;
 }
