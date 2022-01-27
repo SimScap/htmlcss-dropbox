@@ -408,3 +408,45 @@ div.business-container img{
     .bg-clear{
         background-color: rgb(216, 216, 0);
     }
+
+    .try-for-free{
+        width: 100%;
+        height: 20vh;
+        border: 1px solid orangered;
+        background-color: lightsteelblue;
+        
+        
+
+    }
+
+    .try-button{
+        background-color: white;
+        color: black;
+        width: 20%;
+        height: 2.2rem;
+        top: 40%;
+        right: 20%;
+    }
+
+    .container-try{
+        height: 50%;
+        width: 100%;
+        border: 2px solid green;
+    }
+
+    .text-align-right{
+        text-align: right;
+    }
+
+    .text-align-left{
+        text-align: left;
+    }
+
+    .h2-clients{
+        top: 40%;
+        left: 20%;
+    }
+
+    button{
+        font-weight: bolder;
+    }
