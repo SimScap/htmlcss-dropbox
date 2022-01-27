@@ -334,7 +334,13 @@ div.business-container img{
 
 .bolded-small{
     font-weight: bolder;
+    position: relative;
     
+}
+
+.fa-angle-down{
+    position: absolute;
+    right: 5%;
 }
 
 .white-list{
