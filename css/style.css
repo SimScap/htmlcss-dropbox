@@ -326,6 +326,9 @@ div.business-container img{
     width: 40%;
     height: 100%;
     border: 1px solid green;
+    padding: 30px;
+    background-color: rgb(238, 236, 236);
+    
 }
 
 
@@ -353,5 +356,55 @@ div.business-container img{
 .svg-clients-custom{
     width: 50%;
     height: 100%;
-    margin: 0 25%
+    margin: 0 25%;
+    filter: invert(100%);
 }
+
+.svg-clients-florida{
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    filter: invert(100%);
+    }
+
+    .text-logo-clients{
+        width: 30%;
+    }
+
+    .margin-top50{
+        margin-top: 50px;
+    }
+
+    .bg-arizona{
+        background-color: rgba(47, 0, 32, 0.993);
+    }
+
+    .bg-florida{
+        background-color: rgb(30, 30, 253);
+    }
+
+    .bg-topps{
+        background-color: red;
+    }
+
+    .bg-designit{
+        background-color: lightgreen;
+    }
+
+    .bg-bicycle{
+        background-color: rgb(200, 0, 0);
+    }
+
+    .bg-hearst{
+        background-color: lightsteelblue;
+    }
+
+    .bg-lonely{
+        background-color: rgb(2, 2, 160);
+    }
+
+    .bg-clear{
+        background-color: rgb(216, 216, 0);
+    }
