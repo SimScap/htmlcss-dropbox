@@ -447,3 +447,13 @@ del piano sulla card professional */
     button{
         font-weight: bolder;
     }
+
+    #hidden-text{
+        display: none;
+    }
+
+   .bolded-small:hover + #hidden-text{
+       display: block;
+       color: lightgray;
+       width: 80%;
+   }
