@@ -326,8 +326,6 @@ div.business-container img{
     width: 40%;
     height: 100%;
     border: 1px solid green;
-
-  
 }
 
 
@@ -352,3 +350,8 @@ div.business-container img{
     padding: 40px;
 }
 
+.svg-clients-custom{
+    width: 50%;
+    height: 100%;
+    margin: 0 25%
+}
