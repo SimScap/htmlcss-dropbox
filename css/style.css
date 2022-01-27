@@ -43,6 +43,17 @@ input{
     clear: both;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 .vertical-align{
     vertical-align: super;
 }
@@ -98,7 +109,11 @@ header button{
 
 header div ul,li{
     display: inline;
+
 } 
+header div li:hover{
+    border-bottom: 5px solid grey
+}
 
 
 
@@ -108,7 +123,6 @@ header div li{
 
 .wrapper{
     top: 60px;
-    
 }
 
 .jumbo{
@@ -132,7 +146,6 @@ header div li{
 
 .jumbo-img img{
     width: 100%;
-    
 }
 
 div.jumbo-under-title button{
@@ -181,7 +194,6 @@ div.jumbo-under-title button{
     margin-left:10%;
     width: 40%;
     height: 100%;
-    
 }
 
 .partner-button{
@@ -295,14 +307,12 @@ div.business-container img{
 .clients-container{
     width: 100%;
     height: 40vh;
-   
 }
 
 
 .left-side-clients{
     width: 50%;
     height: 50%;
-  
 }
 
 
@@ -312,21 +322,17 @@ div.business-container img{
     height: 100%;
     padding: 30px;
     background-color: rgb(238, 236, 236);
-    
 }
 
 
 .left-side-clients-container{
     height: 100%;
-    width: 30%;
-    
- 
+    width: 30%; 
 }
 
 .bolded-small{
     font-weight: bolder;
     position: relative;
-    
 }
 
 .fa-angle-down{
@@ -343,6 +349,12 @@ div.business-container img{
     display: inline-block;
     padding: 3%;
 }
+
+.white-list li:hover{
+    text-decoration: underline;
+    color: lightsteelblue;
+}
+
 
 /* Rimuovere per aggiungere punti salienti
 del piano sulla card professional */
@@ -409,11 +421,7 @@ del piano sulla card professional */
     .try-for-free{
         width: 100%;
         height: 20vh;
-        
         background-color: lightsteelblue;
-        
-        
-
     }
 
     .try-button{
@@ -452,8 +460,8 @@ del piano sulla card professional */
         display: none;
     }
 
-   .bolded-small:hover + #hidden-text{
-       display: block;
-       color: lightgray;
-       width: 80%;
-   }
+.bolded-small:hover + #hidden-text{
+    display: block;
+    color: lightgray;
+    width: 80%;
+}
