@@ -8,8 +8,8 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
-    /* max-width: 1300px;
-    min-width: 900px; */
+    
+    min-width: 900px;
 }
 
 footer{
@@ -19,15 +19,15 @@ footer{
 
 h1{
     font-size: 3.8rem;
-    padding-top: 40px;
+    padding-top: 4%;
 }
 
 h2{
-    margin-bottom: 20px;
+    margin-bottom: 3%;
 }
 
 h3{
-    margin-bottom: 20px;
+    margin-bottom: 3%;
 }
 
 h6{
@@ -35,7 +35,7 @@ h6{
 }
 
 input{
-    margin-bottom: 20px;
+    margin-bottom: 3%;
 }
 .clearfix{
     content: "";
@@ -117,7 +117,7 @@ header div li{
 
 .jumbo-title{
     margin: 0 auto;
-    padding:50px;
+    padding:3%;
 }
 
 .jumbo-img{
@@ -127,7 +127,7 @@ header div li{
 
 .jumbo-under-title{
     width: 30%;
-    padding:0 50px
+    padding:0 3%;
 }
 
 .jumbo-img img{
@@ -137,12 +137,12 @@ header div li{
 
 div.jumbo-under-title button{
     width: 70%;
-    margin: 20px 0 20px 0;
+    margin: 10% 0 10% 0;
 }
 
 .container{
     width: 90%;
-    margin: 100px auto;
+    margin: 10% auto;
 }
 
 
@@ -198,12 +198,6 @@ div.partner-image img{
 }
 
 
-
-.client-title{
-    width: 30%;
-    border: 2px solid indianred;
-    height: 60px;
-}
 
 .plans-title-spacing{
     line-height: 35px;
@@ -347,7 +341,7 @@ div.business-container img{
 
 .footer-list{
     display: inline-block;
-    padding: 40px;
+    padding: 3%;
 }
 
 /* Rimuovere per aggiungere punti salienti
