@@ -5,35 +5,27 @@
     padding: 0;
     margin: 0;
 }
-
 body{
     font-family: 'Open Sans', sans-serif;
     
     min-width: 900px;
 }
-
 footer{
     background-color: black;
 }
-
-
 h1{
     font-size: 3.8rem;
     padding-top: 4%;
 }
-
 h2{
     margin-bottom: 3%;
 }
-
 h3{
     margin-bottom: 3%;
 }
-
 h6{
     color: gray;
 }
-
 input{
     margin-bottom: 3%;
 }
@@ -42,38 +34,21 @@ input{
     display: table;
     clear: both;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 .vertical-align{
     vertical-align: super;
 }
-
 .float-left{
     float: left;
 }
-
 .float-right{
     float: right;
 }
-
 .position-rel{
     position: relative;
 }
-
 .position-abs{
     position: absolute;
 }
-
 header{
     width: 100%;
     background-color: white;
@@ -82,108 +57,82 @@ header{
     height: 30px;
     line-height: 30px;
 }
-
 .logo-nav{
     width: 50%;
 }
-
 .logo-nav img{
     padding: 20px 10px 0 20px;
 }
-
 .start-nav{
     text-align: right;
     width: 40%;
 }
-
 header button,div.jumbo-under-title button{
     background-color: blue;
     height: 2.2rem;
     color: white;
 }
-
 header button{
     width: 15%;
     margin: 14px 0 0 0;
 }
-
 header div ul,li{
     display: inline;
-
 } 
 header div li:hover{
     border-bottom: 5px solid grey
 }
-
-
-
 header div li{
     padding: 10px;
 }
-
 .wrapper{
     top: 60px;
 }
-
 .jumbo{
     background-color: lightsteelblue;
 }
-
 .jumbo-title{
     margin: 0 auto;
     padding:3%;
 }
-
 .jumbo-img{
     width: 65%;
     
 }
-
 .jumbo-under-title{
     width: 30%;
     padding:0 3%;
 }
-
 .jumbo-img img{
     width: 100%;
 }
-
 div.jumbo-under-title button{
     width: 70%;
     margin: 10% 0 10% 0;
 }
-
 .container{
     width: 90%;
     margin: 10% auto;
 }
-
-
 .dropbox-check-planes{
     padding-top: 10px;
 }
-
 .input-margin{
     margin-left: 20px;
 }
-
 .dropbox-planes{
     width: 30%;
     border: 1px solid lightgrey;
     text-align: center;
 }
-
 .margin-planes{
     margin: 0 5%;
 }
-
-
 .dropbox-contact-planes{
     width: 100%;
     border: 1px solid lightgrey;
     text-align: center;
 }
-
 .partner-image{
     width: 50%;
     height: 100%;
@@ -195,7 +144,6 @@ div.jumbo-under-title button{
     width: 40%;
     height: 100%;
 }
-
 .partner-button{
     background-color: white;
     color: black;
@@ -203,68 +151,49 @@ div.jumbo-under-title button{
     height: 2.2rem;
     margin-top: 20px;
 }
-
 div.partner-image img{
     width: 100%;
     height: 100%;
 }
-
-
-
 .plans-title-spacing{
     line-height: 35px;
 }
-
 .fa-arrow-down {
     padding-top: 30px;
     font-size: 30px;
-
 }
-
 .fa-user{
     margin-right: 5px;
 }
-
 .text-left{
     text-align: left;
     padding: 20px;
 }
-
 .quarter-hr{
     width: 25%;
     margin: 25px 0 25px 0;
 }
-
 .fa-check{
     display: inline;
     margin-bottom: 5px;
     margin-right: 8px;
     color: blue;
 }
-
 .fa-building{
     margin-right: 5px;
 }
-
-
 .clean-list li{
     display: block;
     margin-bottom: 20px;
     font-size: 0.9rem;
 }
-
-
 .card-title,.card-price{
     font-weight: bolder;
 }
-
-
-
 .card-duration{
     color: grey;
     font-size: 0.8rem;
 }
-
 .centered-buttons{
     color: white;
     background-color: blue;
@@ -272,13 +201,10 @@ div.partner-image img{
     height: 2.2rem;
     margin: 25px 0 25px 0;
 }
-
 .enterprise{
     text-align: left;
     padding: 25px;
-
 }
-
 .enterprise-button{
     position: absolute;
     right: 10px;
@@ -287,35 +213,26 @@ div.partner-image img{
     background-color: blue;
     height: 2.2rem;
     width: 20%;
-
 }
-
 .business-container{
     width: 31.4%;
     margin-bottom: 20px;
 }
-
 div.business-container img{
     width: 100%;
     height: 100%;
 }
-
 .margin-bus{
     margin: 0 2.9%;
 }
-
 .clients-container{
     width: 100%;
     height: 40vh;
 }
-
-
 .left-side-clients{
     width: 50%;
     height: 50%;
 }
-
-
 
 .text-clients-container{
     width: 40%;
@@ -323,52 +240,40 @@ div.business-container img{
     padding: 30px;
     background-color: rgb(238, 236, 236);
 }
-
-
 .left-side-clients-container{
     height: 100%;
     width: 30%; 
 }
-
 .bolded-small{
     font-weight: bolder;
     position: relative;
 }
-
 .fa-angle-down{
     position: absolute;
     right: 5%;
 }
-
 .white-list{
     color: white;
 }
-
-
 .footer-list{
     display: inline-block;
     padding: 3%;
 }
-
 .white-list li:hover{
     text-decoration: underline;
     color: lightsteelblue;
 }
-
-
 /* Rimuovere per aggiungere punti salienti
 del piano sulla card professional */
 #margin-bottom60{
     margin-bottom: 60px;
 }
-
 .svg-clients-custom{
     width: 50%;
     height: 100%;
     margin: 0 25%;
     filter: invert(100%);
 }
-
 .svg-clients-florida{
     position: absolute;
     transform: translate(-50% , -50%);
@@ -377,53 +282,41 @@ del piano sulla card professional */
     width: 50%;
     filter: invert(100%);
     }
-
     .text-logo-clients{
         width: 30%;
     }
-
     .margin-top50{
         margin-top: 50px;
     }
-
     .bg-arizona{
         background-color: rgba(47, 0, 32, 0.993);
     }
-
     .bg-florida{
         background-color: rgb(30, 30, 253);
     }
-
     .bg-topps{
         background-color: red;
     }
-
     .bg-designit{
         background-color: lightgreen;
     }
-
     .bg-bicycle{
         background-color: rgb(200, 0, 0);
     }
-
     .bg-hearst{
         background-color: lightsteelblue;
     }
-
     .bg-lonely{
         background-color: rgb(2, 2, 160);
     }
-
     .bg-clear{
         background-color: rgb(216, 216, 0);
     }
-
     .try-for-free{
         width: 100%;
         height: 20vh;
         background-color: lightsteelblue;
     }
-
     .try-button{
         background-color: white;
         color: black;
@@ -432,34 +325,30 @@ del piano sulla card professional */
         top: 40%;
         right: 20%;
     }
-
     .container-try{
         height: 50%;
         width: 100%;
         border: 2px solid green;
     }
-
     .text-align-right{
         text-align: right;
     }
-
     .text-align-left{
         text-align: left;
     }
-
     .h2-clients{
         top: 40%;
         left: 20%;
     }
-
     button{
         font-weight: bolder;
     }
-
+    button:active{
+        color: gray;
+    }
     #hidden-text{
         display: none;
     }
-
 .bolded-small:hover + #hidden-text{
     display: block;
     color: lightgray;
