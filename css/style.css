@@ -101,10 +101,11 @@ header div li{
 }
 .jumbo-img img{
     width: 100%;
+    height: 40vh;
 }
 div.jumbo-under-title button{
     width: 70%;
-    margin: 10% 0 10% 0;
+    margin: 5% 0 5% 0;
 }
 .container{
     width: 90%;
